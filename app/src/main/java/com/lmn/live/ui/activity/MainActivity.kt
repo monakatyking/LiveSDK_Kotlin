@@ -1,7 +1,7 @@
-package com.lmn.test.livesdk_kotlin
-
+package com.lmn.live.ui.activity
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.lmn.live.R
 
 class MainActivity : AppCompatActivity() {
 

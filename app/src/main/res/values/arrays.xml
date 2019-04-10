@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string-array name="avatar_urls">-->
+        <!--<item>http://imgtu.5011.net/uploads/content/20170209/4934501486627131.jpg</item>-->
+        <!--<item>http://img3.duitang.com/uploads/item/201608/19/20160819161731_BLsRV.jpeg</item>-->
+        <!--<item>http://img5.duitang.com/uploads/item/201412/01/20141201160238_VPzwU.jpeg</item>-->
+        <!--<item>http://p3.pstatp.com/large/219000720753b7bd9f0</item>-->
+        <!--<item>http://p3.gexing.com/G1/M00/E4/F9/rBACFFO-gKawaSUrAAArBF1F7k0341_200x200_3.gif?recache=20131108</item>-->
+        <!--<item>http://www.qqzhi.com/uploadpic/2015-01-15/095821713.jpg</item>-->
+        <!--<item>http://www.gpqqtx.com/uploads/allimg/151027/231H1B03-3.jpg</item>-->
+    <!--</string-array>-->
+
+    <string-array name="avatar_urls">
+        <item>http://imgdown.fangqie666.com:9327/img///res/common/images/caocao_s1.png</item>
+        <item>http://imgdown.fangqie666.com:9327/img///104/2788512e1e2f6b356c633f3e18e8542d_s1.jpg</item>
+        <item>http://imgdown.fangqie666.com:9327/img///38/d1e205d85b747285b9695ece29b1d382_s1.webp</item>
+        <item>http://imgdown.fangqie666.com:9327/img///5/91a263efdbcb74fea94548e66e98762a_s1.jpg</item>
+        <item>http://imgdown.fangqie666.com:9327/img///82/0e34ab72fef8c8084de2195fec329149_s1.webp</item>
+        <item>http://imgdown.fangqie666.com:9327/img///5/91a263efdbcb74fea94548e66e98762a_s1.jpg</item>
+        <item>http://35.220.167.29:7009/fanqie/_s3/avatars/20190402/48db3526b7e26f62ed93a445e40a21fb_80x80.png</item>
+    </string-array>
+
+    <string-array name="address_urls_name">
+        <item>测试环境</item>
+        <item>预发布环境</item>
+        <item>生产环境</item>
+        <item>本地测试环境-王</item>
+        <item>本地测试环境-梁</item>
+        <item>本地测试环境-明</item>
+    </string-array>
+
+    <string-array name="address_urls">
+        <item>http://web.test.zhangling.link/api/</item>
+        <item>http://web.pre.zhangling.link/api/</item>
+        <item>http://cdn.0605kj.com/api/</item>
+        <item>http://192.168.88.35:9051/api/</item>
+        <item>http://192.168.88.37:8080/api/</item>
+        <item>http://192.168.88.43:8080/api/</item>
+    </string-array>
+
+    <string-array name="address_change_url_name">
+        <item>预发布环境_1</item>
+        <item>预发布环境_2</item>
+        <item>测试环境</item>
+        <item>王锦文本地环境</item>
+        <item>王锦文本地环境35</item>
+        <item>压测环境</item>
+    </string-array>
+
+    <string-array name="address_change_pre_1">
+        <item>https://api.test.kltbj.com/</item>
+        <item>https://upload.kltbj.com/</item>
+        <item>https://download.kltbj.com/</item>
+    </string-array>
+
+    <string-array name="address_change_pre_2">
+        <item>http://api.sec.kltbj.com/</item>
+        <item>http://upload.sec.kltbj.com/</item>
+        <item>http://download.sec.kltbj.com/</item>
+    </string-array>
+
+    <string-array name="address_change_test">
+        <item>http://39.108.90.33:9051/</item>
+        <item>http://upload.test.zhangling.link:12310/</item>
+        <item>http://download.test.zhangling.link:8021/</item>
+    </string-array>
+
+    <string-array name="address_change_wang">
+        <item>http://192.168.88.210:9051/</item>
+        <item>http://upload.test.zhangling.link:12310/</item>
+        <item>http://download.test.zhangling.link:8021/</item>
+    </string-array>
+
+    <string-array name="address_change_wang35">
+        <item>http://192.168.88.35:9051/</item>
+        <item>http://upload.test.zhangling.link:12310/</item>
+        <item>http://download.test.zhangling.link:8021/</item>
+    </string-array>
+
+    <string-array name="address_change_yc">
+        <item>http://pt.api.kltbj.com/</item>
+        <item>http://pt.upload.kltbj.com/</item>
+        <item>http://pt.download.kltbj.com/</item>
+    </string-array>
+
+    <string-array name="multi_language">
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>English</item>
+        <item>日本語</item>
+        <item>한국어</item>
+    </string-array>
+
+</resources>
