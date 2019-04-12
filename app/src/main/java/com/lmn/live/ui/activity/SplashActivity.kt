@@ -14,6 +14,7 @@ class SplashActivity : BaseActivity() {
                 .subscribeOn(Schedulers.io())
                 .subscribe {
                     startActivity(MainActivity::class.java)
+                    finish()
                 }
 
 
