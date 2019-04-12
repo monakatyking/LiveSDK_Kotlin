@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LiveSDK_Kotlin</string>
+    <string name="tomato">番茄</string>
+    <string name="live">直播</string>
+    <string name="my">我的</string>
+    <string name="login_exit">退出</string>
 </resources>

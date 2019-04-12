@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fq_colorWhite">#ffffff</color>
+    <color name="fq_colorBlack">#030303</color>
+    <color name="fq_colorGray">#b9b9bd</color>
+    <color name="fq_colorGray52">#525252</color>
+    <color name="fq_colorRed">#ff5252</color>
+    <color name="fq_bg_gray">#f5f5f7</color>
+    <color name="fq_bg_gray_2">#fff4f4f4</color>
+
+    <color name="fq_text_white_color">@color/fq_colorWhite</color>
+    <color name="fq_text_gray">#FFA6A6A6</color>
+    <color name="fq_text_gray_dark">#FFA7ABAF</color>
+    <color name="fq_text_black">@color/fq_colorBlack</color>
+    <color name="fq_text_black_dark">#646464</color>
+    <color name="fq_tab_menu_text_color">#969696</color>
+    <color name="fq_tab_menu_text_select_color">@color/fq_colorRed</color>
+    <color name="fq_tab_menu_text_select_yellow_color">#FFC634</color>
+    <color name="fq_color_transparent">#00000000</color>
+    <color name="fq_edit_bg">#66000000</color>
+
+    <color name="fq_list_item_bg_pressed">#77d9d9d9</color>
+    <color name="fq_list_item_bg_normal">#ffffffff</color>
+    <color name="fq_view_divider_color">#E9E9E9</color>
+    <color name="fq_view_divider_color_2">#E9E9E9</color>
+    <color name="fq_view_divider_color_3">#CCCCCC</color>
+    <color name="fq_view_divider_color_4">#FFF4F4F4</color>
+
+    <color name="fq_chat_background_color">#33000000</color>
+
+    <color name="fq_live_msg_yellow_color">#fff300</color>
+    <color name="fq_live_msg_red_color">#ff5252</color>
+    <color name="fq_live_msg_green_color">#FFFFF08E</color>
+    <color name="fq_live_msg_gray_color">#FFE4E4E4</color>
+    <color name="fq_live_msg_white_color">#FFFFFF</color>
+    <color name="fq_live_msg_anchor_color">#FF9696</color>
+    <color name="fq_live_msg_manager_color">#C485FF</color>
+    <color name="fq_live_msg_audience_color">@color/fq_live_msg_gray_color</color>
+
+    <color name="fq_live_msg_gift_manager_color">#C187FF</color>
+    <color name="fq_live_msg_gift_audience_color">#B3D2FF</color>
+    <color name="fq_live_msg_gift_color">#FE893A</color>
+
+    <color name="fq_live_top_bg_color">#F19E64</color>
+
+    <color name="fq_gift_num_popup_bg">#f2505050</color>
+    <color name="fq_gift_num_popup_divider">#2f2f2f</color>
+
+    <color name="fq_up_intro">#f98989</color>
+    <color name="fq_bottom_cover_bg">#b3000000</color>
+    <color name="fq_bottom_cover_text">#c2c2c2</color>
+    <color name="fq_live_money_bg">#66ff5252</color>
+    <color name="fq_anchor_identy_gray">#cecece</color>
+    <color name="fq_gray96">#999999</color>
+    <color name="fq_identy_btn_gray">#EEEEEE</color>
+    <color name="fq_re_identy">#999EAD</color>
+    <color name="fq_anchor_info_bg">#DBDBDB</color>
+    <color name="fq_blur_color">#B3000000</color>
+    <color name="fq_top_yellow_color">#FFFFB83E</color>
+
+    <color name="fq_user_grade_color_1">#FFDFB77A</color>
+    <color name="fq_user_grade_color_1_transparent">#55DFB77A</color>
+    <color name="fq_user_grade_color_1_light">#55FFCB7E</color>
+    <color name="fq_user_grade_color_2">#FF4FD5C5</color>
+    <color name="fq_user_grade_color_2_transparent">#554FD5C5</color>
+    <color name="fq_user_grade_color_2_light">#554CD1A8</color>
+    <color name="fq_user_grade_color_3">#FF7EAFFE</color>
+    <color name="fq_user_grade_color_3_transparent">#557EAFFE</color>
+    <color name="fq_user_grade_color_3_light">#557EC6FE</color>
+    <color name="fq_user_grade_color_4">#FF5B5BFF</color>
+    <color name="fq_user_grade_color_4_transparent">#555B5BFF</color>
+    <color name="fq_user_grade_color_4_light">#554FDFE2</color>
+    <color name="fq_user_grade_color_5">#FFFF5252</color>
+    <color name="fq_user_grade_color_5_transparent">#55FF5252</color>
+    <color name="fq_user_grade_color_5_light">#55ECBC38</color>
+    <color name="fq_user_grade_color_6">#FFFFCF03</color>
+    <color name="fq_user_grade_color_6_transparent">#55FFCF03</color>
+    <color name="fq_user_grade_color_6_light">#55FFEAAF</color>
+    <color name="fq_user_grade_text_brown_color">#FFB26201</color>
+ 
+    <color name="zhihu_primary">@color/fq_colorRed</color>
+    <color name="zhihu_primary_dark">@color/fq_colorRed</color>
+    <color name="fq_bottom_dialog_bg">#e6ffffff</color>
+    <color name="fq_tran_black">#88000000</color>
+    <color name="fq_open_grade_left_color">#4fdfe2</color>
+    <color name="fq_guard_mouth_text_bg">#7EF4FF</color>
+    <color name="fq_guard_year_text_bg">#FFD171</color>
+    <color name="fq_guard_mouth_left_bg">#665F3FDE</color>
+    <color name="fq_guard_mouth_right_bg">#664FB5E2</color>
+    <color name="fq_guard_year_left_bg">#665A00A6</color>
+    <color name="fq_guard_year_right_bg">#66FB44FD</color>
+
+
+
+</resources>
