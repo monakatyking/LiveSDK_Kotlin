@@ -1,7 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:paddingBottom="85dp">
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        tools:src="@drawable/fq_ic_placeholder_avatar" />
+
+    <TextView
+        android:id="@+id/tv_nick_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/fq_text_black"
+        android:textSize="16sp"
+        tools:text="小散基恩" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nick_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        tools:text="小散基恩" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_my_live_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/switch_beauty"
+            android:textColor="@color/fq_text_gray"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cb_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fq_selector_checkbox_bg"
+            android:button="@null" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_my_live_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_address_bg"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/fq_view_divider_color" />
+
+        <TextView
+            android:id="@+id/tv_my_live"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fq_list_view_item_selector"
+            android:drawableLeft="@mipmap/ic_tab_live"
+            android:drawableRight="@drawable/fq_ic_arrow_right_gray"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/my_live"
+            android:textColor="@color/fq_text_black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/fq_view_divider_color" />
+
+        <TextView
+            android:id="@+id/tv_url_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fq_list_view_item_selector"
+            android:drawableLeft="@mipmap/ic_tab_live"
+            android:drawableRight="@drawable/fq_ic_arrow_right_gray"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/url_change"
+            android:textColor="@color/fq_text_black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/fq_view_divider_color" />
+
+        <TextView
+            android:id="@+id/tv_multi_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fq_list_view_item_selector"
+            android:drawableLeft="@mipmap/ic_tab_live"
+            android:drawableRight="@drawable/fq_ic_arrow_right_gray"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/language_change"
+            android:textColor="@color/fq_text_black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/fq_view_divider_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_address_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_exit_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/fq_colorRed"
+            android:textSize="16sp"
+            android:visibility="visible"
+            tools:text="小散基恩" />
+
+        <TextView
+            android:id="@+id/tv_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fq_colorRed"
+            android:textSize="16sp"
+            android:visibility="visible"
+            tools:text="小散基恩" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_exit_login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/fq_btn_attention_selector"
+        android:gravity="center"
+        android:text="@string/login_exit"
+        android:textColor="@color/fq_colorWhite" />
+
+</RelativeLayout>

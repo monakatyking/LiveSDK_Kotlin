@@ -3,5 +3,10 @@
     <string name="tomato">番茄</string>
     <string name="live">直播</string>
     <string name="my">我的</string>
-    <string name="login_exit">退出</string>
+    <string name="login_exit">退出登录</string>
+    <string name="my_live">我的直播</string>
+    <string name="url_change">域名切换</string>
+    <string name="language_change">多语言切换</string>
+    <string name="switch_beauty">是否开启美颜</string>
+    <string name="login_exiting">正在退出登录...</string>
 </resources>
